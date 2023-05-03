@@ -170,10 +170,10 @@ if __name__ == "__main__":
     print(pp)
 
 
-    # Essay scoring experiment:
-    acc = essay_scoring_experiment('TOEFL_data/ets_toefl_data/train_high.txt',
-                                   'TOEFL_data/ets_toefl_data/train_low.txt',
-                                   'TOEFL_data/ets_toefl_data/test_high',
-                                   'TOEFL_data/ets_toefl_data/test_low')
-    print(acc)
+#     Batch Classification:
+#     acc = essay_scoring_experiment('TOEFL_data/ets_toefl_data/train_high.txt',
+#                                    'TOEFL_data/ets_toefl_data/train_low.txt',
+#                                    'TOEFL_data/ets_toefl_data/test_high',
+#                                    'TOEFL_data/ets_toefl_data/test_low')
+#     print(acc)
 
